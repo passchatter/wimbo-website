@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap');
+
+#nav-menu.active{
+   @apply opacity-100 w-full left-0 top-0  shadow-2xl
+}
+
+.header-active{
+   @apply fixed transition duration-500 bg-white shadow-sm ;
+   
+}
+
+
